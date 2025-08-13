@@ -1,0 +1,11 @@
+# Ignore node modules
+node_modules
+
+# Ignore Angular cache/build folder
+.angular
+
+# Ignore distribution build folder
+dist
+
+# Ignore environment files if needed
+*.env

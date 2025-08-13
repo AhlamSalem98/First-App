@@ -1,0 +1,32 @@
+.footer,
+.card {
+  background-color: #2C3E50;
+}
+
+.footer {
+  overflow: hidden;
+}
+
+.card-group {
+  padding-top: 50px;
+  padding-bottom: 0;
+  padding-bottom: 40px;
+}
+
+.footer-bottom {
+  background-color: #1A252F;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.icon-circle{
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ width: 30px;
+ height: 30px;
+ border: 1px solid white;
+ border-radius: 50%;
+ font-size: 18px;
+
+}

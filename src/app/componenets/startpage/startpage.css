@@ -1,0 +1,36 @@
+.section-padding {
+  padding-top: 150px;
+}
+
+.startPage {
+  background-color: #1ABC9C;
+}
+/*! star icon css after & before */
+.starIcon {
+  position: relative;
+  display: inline-block;
+}
+
+.starIcon::after,
+.starIcon::before{
+  content: "";
+ position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 4px;
+  background-color: white;
+}
+
+.starIcon::before{
+right: 75%;
+margin-right: 20px;
+
+}
+
+.starIcon::after{
+left: 75%;
+margin-left: 20px;
+}
+
+
+

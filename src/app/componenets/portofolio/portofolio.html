@@ -1,0 +1,35 @@
+<section class="portofolioSection section-padding">
+<div class="container">
+<div class="header text-center">
+  <h2 class="fs-1 fw-bold text-uppercase">portfolio component</h2>
+
+<div class="starIcon py-1 text-center fs-5">
+  <i class="fa-solid fa-star"></i>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 mb-4" *ngFor="let img of imgSrc">
+    <div class="img-box p-3 position-relative" (click)="openImg(img.src)">
+    <img [src]="img.src" class="w-100 rounded-3" alt="imgSrc.alt"/>
+
+  <!-- OVERLAY -->
+  <div class="overlay rounded-3 d-flex justify-content-center align-items-center">
+    <i class="display-1 text-white fa-solid fa-plus"></i>
+  </div>
+  </div>
+  </div>
+
+</div>
+
+/*fullScreen Ovrelay*/
+<div class="fullSreen-overlayer" *ngIf="selectedImge" (click)="closeImg()">
+<img [src]="selectedImge" class="fullscreen-Img" (click)="$event.stopPropagation()"/>
+
+</div>
+
+
+
+</div>
+</section>

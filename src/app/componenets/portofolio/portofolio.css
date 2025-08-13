@@ -1,0 +1,78 @@
+
+.section-padding {
+  padding-top: 90px;
+}
+
+.header h2{
+  color: #3c546c;
+}
+
+/*! star icon css after & before */
+.starIcon {
+  position: relative;
+  display: inline-block;
+}
+
+.starIcon i {
+  color: #3c546c;
+}
+
+.starIcon::after,
+.starIcon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  height: 3px;
+  background-color: #3c546c;
+}
+
+.starIcon::before {
+  right: 75%;
+  margin-right: 20px;
+
+}
+
+.starIcon::after {
+  left: 75%;
+  margin-left: 20px;
+}
+/*! Overlay*/
+.overlay{
+position: absolute;
+overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#1abc9ce6;
+  opacity: 0;
+  transition: .8s;
+}
+
+.img-box:hover .overlay{
+opacity: 1;
+cursor: pointer;
+}
+
+/* FullScreen Overlayer*/
+
+.fullSreen-overlayer{
+  position: fixed;
+   top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(121, 132, 232, 0.523);
+z-index: 9999;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.fullscreen-Img{
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 10px;
+  box-shadow: #252525;
+}
