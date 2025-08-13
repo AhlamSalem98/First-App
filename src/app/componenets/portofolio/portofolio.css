@@ -41,10 +41,10 @@
 .overlay{
 position: absolute;
 overflow: hidden;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
   background-color:#1abc9ce6;
   opacity: 0;
   transition: .8s;

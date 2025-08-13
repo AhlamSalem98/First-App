@@ -12,12 +12,12 @@ import { CommonModule } from '@angular/common';
 export class Portofolio {
 
 imgSrc=[
-{src:'.//public/images/home.png', alt:'home'},
-{src:'.//public/images/play.png', alt:'play'},
-{src:'.//public/images/tart.png', alt:'tart'},
-{src:'.//public/images/home.png', alt:'home'},
-{src:'.//public/images/play.png', alt:'play'},
-{src:'.//public/images/tart.png', alt:'tart'},
+{src:'images/home.png', alt:'home'},
+{src:'images/play.png', alt:'play'},
+{src:'images/tart.png', alt:'tart'},
+{src:'images/home.png', alt:'home'},
+{src:'images/play.png', alt:'play'},
+{src:'images/tart.png', alt:'tart'},
 
 ];
 
